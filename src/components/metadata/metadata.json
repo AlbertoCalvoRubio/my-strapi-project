@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_metadata_metadata",
+  "info": {
+    "displayName": "Metadata",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    }
+  }
+}

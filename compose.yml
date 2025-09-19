@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:15.10
+    container_name: strapi_db_bug
+    environment:
+      POSTGRES_USER: strapi
+      POSTGRES_PASSWORD: strapi
+      POSTGRES_DB: strapi
+    ports:
+      - "5432:5432"
